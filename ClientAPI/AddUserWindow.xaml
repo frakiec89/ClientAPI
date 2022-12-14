@@ -1,0 +1,55 @@
+﻿<Window x:Class="ClientAPI.AddUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientAPI"
+        mc:Ignorable="d"
+        Title="AddUserWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+          
+
+            <StackPanel Margin="5">
+
+                <StackPanel Orientation="Horizontal"
+                    >
+                    <Label Margin="5">Введите Имя:</Label>
+                    <TextBox Margin="5" MinWidth="150" 
+                              Name="tbName" ></TextBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal"
+                    >
+                    <Label Margin="5">Введите логин:</Label>
+                    <TextBox Margin="5" MinWidth="150" 
+                              Name="tbLogin" ></TextBox>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal"
+                    >
+                    <Label Margin="5">Введите пароль:</Label>
+                    <TextBox Margin="5" MinWidth="150" 
+                              Name="tbPassword" ></TextBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal"
+                    >
+                    <Label Margin="5">Введите email:</Label>
+                    <TextBox Margin="5" MinWidth="150" 
+                              Name="tbEmail" ></TextBox>
+                </StackPanel>
+
+                <Button
+                    Margin="5" Padding="5"
+                    Name="btnIn" Click="btnIn_Click" >Зарегистрироваться</Button>
+              
+
+            </StackPanel>
+
+        </StackPanel>
+
+
+
+    </Grid>
+</Window>
